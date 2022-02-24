@@ -13,7 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Step 1 - Checkout
-              uses: actions/checkout@v2.3.4
+              uses: actions/checkout@v2
             - name: Step 2 - Build GFWList2AGH
               run: |
                   curl -s "https://raw.githubusercontent.com/jimmyshjj/GFWList2AGH/source/release.sh" | bash
