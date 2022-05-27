@@ -118,10 +118,10 @@ function GenerateRules() {
                 # "https://dns.ipv6dns.com:443/dns-query"
                 # "https://doh.360.cn:443/dns-query"
                 # "https://doh.pub:443/dns-query"
-                "tls://dns.alidns.com:853"
+                # "tls://dns.alidns.com:853"
                 # "tls://dns.ipv6dns.com:853"
-                "tls://dot.360.cn:853"
-                # "tls://dot.pub:853"
+                # "tls://dot.360.cn:853"
+                "tls://dot.pub:853"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
