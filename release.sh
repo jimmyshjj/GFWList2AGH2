@@ -114,39 +114,49 @@ function GenerateRules() {
     case ${software_name} in
         adguardhome)
             domestic_dns=(
-                # "https://dns.alidns.com:443/dns-query"
-                # "https://dns.ipv6dns.com:443/dns-query"
-                # "https://doh.360.cn:443/dns-query"
-                # "https://doh.pub:443/dns-query"
-                "tls://dns.alidns.com:853"
-                # "tls://dns.ipv6dns.com:853"
-                "tls://dot.360.cn:853"
-                "tls://dot.pub:853"
+                # "https://dns.alidns.com/dns-query"
+                # "https://dns.ipv6dns.com/dns-query"
+                # "https://doh.360.cn/dns-query"
+                # "https://doh.pub/dns-query"
+                "tls://dns.alidns.com"
+                # "tls://dns.ipv6dns.com"
+                "tls://dot.360.cn"
+                "tls://dot.pub"
             )
             foreign_dns=(
-                # "https://dns.google:443/dns-query"
-                "https://dns.opendns.com:443/dns-query"
-                # "https://dns11.quad9.net:443/dns-query"
-                # "https://dns64.dns.google:443/dns-query"
-                # "tls://dns.google:853"
-                "tls://dns.opendns.com:853"
-                # "tls://dns11.quad9.net:853"
-                # "tls://dns64.dns.google:853"
+                # "https://dns.google/dns-query"
+                # "https://dns.opendns.com/dns-query"
+                # "https://dns11.quad9.net/dns-query"
+                # "https://dns64.dns.google/dns-query"
+                # "tls://dns.google"
+                # "tls://dns.opendns.com"
+                # "tls://dns11.quad9.net"
+                # "tls://dns64.dns.google"
                 "https://dns.cloudflare.com/dns-query"
                 "https://doh.applied-privacy.net/query"
                 "https://dns.twnic.tw/dns-query"
-                # ADGUARD
+                "tls://101.101.101.101"
+                "https://dns.switch.ch/dns-query"
+                "https://private.canadianshield.cira.ca/dns-query"
+                "https://odvr.nic.cz/dns-query"
+                "tls://odvr.nic.cz"
+                # ADGUARD-unfiltered
+                "tls://dns-unfiltered.adguard.com"
+                "https://dns-unfiltered.adguard.com/dns-query"
+                "quic://dns-unfiltered.adguard.com"
                 "sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t"
                 # Yandex
                 # "sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA"
-                # Quad9
+                # Quad9-unfiltered
+                "https://dns10.quad9.net/dns-query"
+                "tls://dns10.quad9.net"
                 "sdns://AQMAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
                 # Comodo
-                "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
+                # "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
                 # Cisco
-                "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
+                # "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
                 # Tiar
-                "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
+                # "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
                 # "sdns://AQcAAAAAAAAAEjE3Mi4xMDQuOTMuODA6MTQ0MyAyuHY-8b9lNqHeahPAzW9IoXnjiLaZpTeNbVs8TN9UUxsyLmRuc2NyeXB0LWNlcnQuanAudGlhci5hcHA"
 
             )
