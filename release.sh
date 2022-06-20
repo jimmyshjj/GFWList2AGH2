@@ -142,7 +142,6 @@ function GenerateRules() {
                 "tls://101.101.101.101"
                 "https://private.canadianshield.cira.ca/dns-query"
                 "https://dns.digitalsize.net/dns-query"
-                "tls://dns.digitalsize.net"
                 # ADGUARD-unfiltered
                 "tls://dns-unfiltered.adguard.com"
                 "https://dns-unfiltered.adguard.com/dns-query"
