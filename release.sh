@@ -118,9 +118,9 @@ function GenerateRules() {
                 # "https://dns.ipv6dns.com/dns-query"
                 # "https://doh.360.cn/dns-query"
                 # "https://doh.pub/dns-query"
-                # "tls://dns.alidns.com"
+                "tls://dns.alidns.com"
                 # "tls://dns.ipv6dns.com"
-                # "tls://dot.360.cn"
+                "tls://dot.360.cn"
                 "tls://dot.pub"
                 "tls://d.rubyfish.cn"
             )
