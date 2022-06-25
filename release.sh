@@ -114,18 +114,15 @@ function GenerateRules() {
     case ${software_name} in
         adguardhome)
             domestic_dns=(
-                # "https://dns.alidns.com/dns-query"
+                "https://dns.alidns.com/dns-query"
                 # "https://dns.ipv6dns.com/dns-query"
-                # "https://doh.360.cn/dns-query"
-                # "https://doh.pub/dns-query"
+                "https://doh.360.cn/dns-query"
+                "https://doh.pub/dns-query"
                 # "tls://dns.ipv6dns.com"
-                "tls://1.12.12.12"
-                # "tls://dns.alidns.com"
-                # "tls://dot.pub"
-                # "tls://dot.360.cn"
-                # "tls://d.rubyfish.cn"
-                "tls://223.5.5.5"
-                "tls://101.226.4.6"
+                "tls://dns.alidns.com"
+                "tls://dot.pub"
+                "tls://dot.360.cn"
+                "tls://d.rubyfish.cn"
             )
             foreign_dns=(
                 # "https://dns.google/dns-query"
@@ -140,7 +137,7 @@ function GenerateRules() {
                 "tls://208.67.222.222"
                 "tls://208.67.222.220"
                 "tls://8.8.4.4"
-                # "https://dns.cloudflare.com/dns-query"
+                "https://dns.cloudflare.com/dns-query"
                 "https://1.0.0.1/dns-query"
                 "tls://1.0.0.1"
                 # "https://doh.applied-privacy.net/query"
