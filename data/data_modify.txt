@@ -150,6 +150,7 @@
 (@&!)dns.google
 (@&!)google.com
 (@&!)redirector.googlevideo.com
+(@%!)google.cn
 
 # it-global.cn #8
 (@%!)it-global.cn
