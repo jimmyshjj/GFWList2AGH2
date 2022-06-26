@@ -198,4 +198,7 @@
 # 治杰 Online
 (@&!)zhijie.online
 
+#
+(@%!)jimmyshjj.top
+
 ## 自定义规则 - 结束
