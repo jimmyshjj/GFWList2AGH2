@@ -115,14 +115,14 @@ function GenerateRules() {
         adguardhome)
             domestic_dns=(
                 "https://dns.alidns.com/dns-query"
-                # "https://dns.ipv6dns.com/dns-query"
-                "https://doh.360.cn/dns-query"
-                "https://doh.pub/dns-query"
-                # "tls://dns.ipv6dns.com"
                 "tls://dns.alidns.com"
-                "tls://dot.pub"
+                "https://doh.360.cn/dns-query"
                 "tls://dot.360.cn"
+                "https://doh.pub/dns-query"
+                "tls://dot.pub"
                 "tls://d.rubyfish.cn"
+                # "https://dns.ipv6dns.com/dns-query"
+                # "tls://dns.ipv6dns.com"
             )
             foreign_dns=(
                 # Cloudflare
