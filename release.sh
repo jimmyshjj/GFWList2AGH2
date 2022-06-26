@@ -125,46 +125,43 @@ function GenerateRules() {
                 "tls://d.rubyfish.cn"
             )
             foreign_dns=(
-                # "https://dns.google/dns-query"
-                # "https://dns.opendns.com/dns-query"
-                # "https://dns11.quad9.net/dns-query"
-                # "https://dns64.dns.google/dns-query"
-                # "tls://dns.google"
-                # "tls://dns.opendns.com"
-                # "tls://dns11.quad9.net"
-                # "tls://dns64.dns.google"
-                # "https://doh.opendns.com/dns-query"
-                "tls://208.67.222.222"
-                "tls://208.67.222.220"
-                "tls://8.8.4.4"
+                # Cloudflare
                 "https://dns.cloudflare.com/dns-query"
                 "https://1.0.0.1/dns-query"
                 "tls://1.0.0.1"
-                # "https://doh.applied-privacy.net/query"
-                # "https://101.101.101.101/dns-query"
+                # "https://1.1.1.1/dns-query"
+                # "tls://1.1.1.1"
+                # Google
+                # "https://dns.google/dns-query"
+                # "tls://dns.google"
+                "tls://8.8.4.4"
+                # Quad101
+                "https://101.101.101.101/dns-query"
                 "tls://101.101.101.101"
-                # "https://private.canadianshield.cira.ca/dns-query"
-                # "https://dns.digitalsize.net/dns-query"
                 # ADGUARD-unfiltered
-                "tls://94.140.14.140"
-                "quic://94.140.14.140"
-                "tls://94.140.14.141"
-                "quic://94.140.14.141"
-                # "sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t"
+                "tls://dns-unfiltered.adguard.com"
+                "quic://dns-unfiltered.adguard.com"
+                "https://dns-unfiltered.adguard.com/dns-query"
+                "sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t"
                 # Yandex
                 # "sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA"
                 # Quad9-unfiltered
-                "https://9.9.9.10/dns-query"
-                "tls://9.9.9.10"
-                # "sdns://AQMAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
+                "https://dns10.quad9.net/dns-query"
+                "tls://dns10.quad9.net"
+                "sdns://AQMAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
                 # Comodo
-                # "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
+                "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
                 # Cisco
-                # "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
+                "https://doh.opendns.com/dns-query"
+                "tls://dns.opendns.com"
+                "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
                 # Tiar
                 # "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
                 # "sdns://AQcAAAAAAAAAEjE3Mi4xMDQuOTMuODA6MTQ0MyAyuHY-8b9lNqHeahPAzW9IoXnjiLaZpTeNbVs8TN9UUxsyLmRuc2NyeXB0LWNlcnQuanAudGlhci5hcHA"
-
+                # Others
+                # "https://doh.applied-privacy.net/query"
+                # "https://private.canadianshield.cira.ca/dns-query"
+                # "https://dns.digitalsize.net/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -225,18 +222,18 @@ function GenerateRules() {
 # Output Data
 function OutputData() {
     ## AdGuard Home
-    #software_name="adguardhome" && generate_file="black" && generate_mode="full_combine" && dns_mode="default" && GenerateRules
-    #software_name="adguardhome" && generate_file="black" && generate_mode="lite_combine" && dns_mode="default" && GenerateRules
+    software_name="adguardhome" && generate_file="black" && generate_mode="full_combine" && dns_mode="default" && GenerateRules
+    software_name="adguardhome" && generate_file="black" && generate_mode="lite_combine" && dns_mode="default" && GenerateRules
     software_name="adguardhome" && generate_file="white" && generate_mode="full_combine" && dns_mode="default" && GenerateRules
     software_name="adguardhome" && generate_file="white" && generate_mode="lite_combine" && dns_mode="default" && GenerateRules
     software_name="adguardhome" && generate_file="blackwhite" && generate_mode="full_combine" && dns_mode="domestic" && GenerateRules
     software_name="adguardhome" && generate_file="blackwhite" && generate_mode="lite_combine" && dns_mode="domestic" && GenerateRules
-    #software_name="adguardhome" && generate_file="whiteblack" && generate_mode="full_combine" && dns_mode="foreign" && GenerateRules
-    #software_name="adguardhome" && generate_file="whiteblack" && generate_mode="lite_combine" && dns_mode="foreign" && GenerateRules
+    software_name="adguardhome" && generate_file="whiteblack" && generate_mode="full_combine" && dns_mode="foreign" && GenerateRules
+    software_name="adguardhome" && generate_file="whiteblack" && generate_mode="lite_combine" && dns_mode="foreign" && GenerateRules
     software_name="adguardhome" && generate_file="blackwhite" && generate_mode="full" && dns_mode="domestic" && GenerateRules
     software_name="adguardhome" && generate_file="blackwhite" && generate_mode="lite" && dns_mode="domestic" && GenerateRules
-    #software_name="adguardhome" && generate_file="whiteblack" && generate_mode="full" && dns_mode="foreign" && GenerateRules
-    #software_name="adguardhome" && generate_file="whiteblack" && generate_mode="lite" && dns_mode="foreign" && GenerateRules
+    software_name="adguardhome" && generate_file="whiteblack" && generate_mode="full" && dns_mode="foreign" && GenerateRules
+    software_name="adguardhome" && generate_file="whiteblack" && generate_mode="lite" && dns_mode="foreign" && GenerateRules
     cd .. && rm -rf ./Temp
     exit 0
 }
