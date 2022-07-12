@@ -161,8 +161,6 @@ function GenerateRules() {
                 # Private
                 "https://dns-jp.jimmyshjj.top/dns-query/adguard-tencentcloud"
                 "https://cloudflare-dns-jp.jimmyshjj.top/dns-query/adguard-tencentcloud"
-                "tls://adguard-tencentcloud.dns-jp.jimmyshjj.top"
-                "quic://adguard-tencentcloud.dns-jp.jimmyshjj.top"
                 # Others
                 # "https://doh.applied-privacy.net/query"
                 # "https://private.canadianshield.cira.ca/dns-query"
