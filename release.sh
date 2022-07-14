@@ -120,7 +120,6 @@ function GenerateRules() {
                 "tls://dot.360.cn"
                 "https://doh.pub/dns-query"
                 "tls://dot.pub"
-                "tls://d.rubyfish.cn"
                 # "https://dns.ipv6dns.com/dns-query"
                 # "tls://dns.ipv6dns.com"
             )
