@@ -124,41 +124,36 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com"
             )
             foreign_dns=(
-                # Cloudflare
-                "https://dns.cloudflare.com/dns-query"
-                "https://1.0.0.1/dns-query"
-                "tls://1.0.0.1"
-                # "https://1.1.1.1/dns-query"
-                # "tls://1.1.1.1"
-                # Google
-                # "https://dns.google/dns-query"
-                # "tls://dns.google"
-                "tls://8.8.4.4"
-                # Quad101
-                "https://101.101.101.101/dns-query"
-                "tls://101.101.101.101"
-                # ADGUARD-unfiltered
+                #Google
+                "tls://dns.google"
+                "https://dns.google/dns-query"
+                #Quad9
+                "tls://dns11.quad9.net"
+                "https://dns11.quad9.net/dns-query"
+                "sdns://AQMAAAAAAAAADTkuOS45LjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
+                #Cisco
+                "tls://dns.opendns.com"
+                "https://doh.opendns.com/dns-query"
+                "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
+                #AdGuard
+                "https://dns-unfiltered.adguard.com/dns-query"
                 "tls://dns-unfiltered.adguard.com"
                 "quic://dns-unfiltered.adguard.com"
-                "https://dns-unfiltered.adguard.com/dns-query"
                 "sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t"
-                # Yandex
-                # "sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA"
-                # Quad9-unfiltered
-                "https://dns10.quad9.net/dns-query"
-                "tls://dns10.quad9.net"
-                "sdns://AQMAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
-                # Comodo
+                #Cloudflare
+                "https://one.one.one.one/dns-query"
+                "tls://one.one.one.one"
+                #101
+                "https://dns.twnic.tw/dns-query"
+                "tls://101.101.101.101"
+                #Next DNS
+                "tls://dns.nextdns.io"
+                "quic://dns.nextdns.io"
+                "https://dns.nextdns.io"
+                #Comodo
                 "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
-                # Cisco
-                "https://doh.opendns.com/dns-query"
-                "tls://dns.opendns.com"
-                "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
-                # Tiar
-                # "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
-                # "sdns://AQcAAAAAAAAAEjE3Mi4xMDQuOTMuODA6MTQ0MyAyuHY-8b9lNqHeahPAzW9IoXnjiLaZpTeNbVs8TN9UUxsyLmRuc2NyeXB0LWNlcnQuanAudGlhci5hcHA"
-                # Private
-                "https://dns-jp-cloudflare.jimmyshjj.top/dns-query/tencentcloud"
+                #Yandex
+                "sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA"
                 # Others
                 # "https://doh.applied-privacy.net/query"
                 # "https://private.canadianshield.cira.ca/dns-query"
