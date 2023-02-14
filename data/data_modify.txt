@@ -108,6 +108,10 @@
 (@%!)cn.bing.net
 (@%!)www.bing.com
 
+# 苍穹の下
+#(@&!)000714.xyz
+#(@&!)blueskyxn.com
+
 # Cloudflare
 (@&!)1dot1dot1dot1.cloudflare-dns.com
 (@&!)cloudflare-dns.com
@@ -151,6 +155,9 @@
 (@&!)google.com
 (@&!)redirector.googlevideo.com
 (@%!)google.cn
+(@%!)g.cn
+(@%!)gstatic.cn
+(@&!)googleads.g.doubleclick.net
 
 # it-global.cn #8
 (@%!)it-global.cn
@@ -201,5 +208,7 @@
 
 #
 (@%!)jimmyshjj.top
+(@%!)mcdn.bilivideo.cn
+(@%!)301.sh
 
 ## 自定义规则 - 结束
